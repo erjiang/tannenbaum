@@ -1,37 +1,38 @@
-+----------------------------------------------------------+
-| TITLE                                                    |
-+----------------------------------------------------------+
-| Tannenbaum                                               |
-+----------------------------------------------------------+
-| AUTHORS                                                  |
-+----------------------------------------------------------+
-| Cameron Swords                                           |
-| Rebecca Swords                                           |
-+----------------------------------------------------------+
-| USAGE                                                    |
-+----------------------------------------------------------+
-| Load "tannenbaum.scm" and call (run [filename]).         |
-|                                                          |
-| This was all written in Petite Chez Scheme 8.4, but I do |
-| not have any reason to believe any R6RS-compatible       |
-| Scheme implementation *won't* run it.                    |
-+----------------------------------------------------------+
-| SYNTAX                                                   |
-+----------------------------------------------------------+
-| The syntax of this language is described in the top of   |
-| the main file, but is reproduced here:                   |
-|                                                          |
-|  $ -> (lexical-var 0)                                    |
-| $$ -> (lexical-var 1)                                    |
-|  ( -> lambda                                             |
-|  ) -> close lambda                                       |
-|  @ -> application                                        |
-|  % -> spacing                                            |
-|  0 -> 'this line'                                        |
-|  * -> start program                                      |
-|  | -> end program                                        |
-|  + -> line reference to line 1                           |
-|  ++ -> line reference to line 2                          |
+TITLE                     
++----------------------------------------------------------+  
+Tannenbaum                                               
+
+AUTHORS                                                  
++----------------------------------------------------------+  
+Cameron Swords                                           
+Rebecca Swords                                           
+
+
+USAGE                                                    
++----------------------------------------------------------+  
+Load "tannenbaum.scm" and call (run [filename]).         
+This was all written in Petite Chez Scheme 8.4, but I do   
+not have any reason to believe any R6RS-compatible         
+Scheme implementation *won't* run it.                      
+
+
+SYNTAX                                                   
++----------------------------------------------------------+  
+ The syntax of this language is described in the top of   
+ the main file, but is reproduced here:                   
+                                                        
+  $ -> (lexical-var 0)                                    
+ $$ -> (lexical-var 1)                                    
+  ( -> lambda                                             
+  ) -> close lambda                                       
+  @ -> application                                        
+  % -> spacing                                            
+  0 -> 'this line'                                        
+  * -> start program                                      
+  | -> end program                                        
+  + -> line reference to line 1                           
+  ++ -> line reference to line 2                     
+
 +----------------------------------------------------------+
 | WRITING PROGRAMS                                         |
 +----------------------------------------------------------+
