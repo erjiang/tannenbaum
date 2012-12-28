@@ -22,7 +22,7 @@ SYNTAX
  the main file, but is reproduced here:                   
                                                         
   $ -> (lexical-var 0)                                    
- $$ -> (lexical-var 1)                                    
+  $ $ -> (lexical-var 1)                                    
   ( -> lambda                                             
   ) -> close lambda                                       
   @ -> application                                        
@@ -31,10 +31,10 @@ SYNTAX
   \* -> start program                                      
   | -> end program                                        
   \+ -> line reference to line 1                           
-  ++ -> line reference to line 2                     
+  \+ \+ -> line reference to line 2                     
 
 WRITING PROGRAMS                                         
-+----------------------------------------------------------+
++----------------------------------------------------------+  
   Any program starts with a * (every Christmas tree has a  
   star on top) and ends with a | (every tree has a trunk). 
                                                            
